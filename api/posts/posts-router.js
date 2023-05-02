@@ -70,7 +70,7 @@ router.delete('/:id',async (req, res) => {
                 message: "The post with the specified ID does not exist"
             })
         } else {
-            res.json(req.params.idnpm t)
+            res.json(req.params.id)
         }
     }
     catch (err) {
